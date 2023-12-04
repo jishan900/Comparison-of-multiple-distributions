@@ -42,17 +42,21 @@ Subset_3 <- subset(airbnb_data, host_response_time == "within a day")
 # Task 2: Do the log_price values differ between the categories of host_response_time values? Conduct a global test.
 # Create QQ plots
 plot1 <- ggplot(Subset_1, aes(sample = log_price)) +
-  stat_qq() +
+  stat_qq(conf.int = FALSE, conf.int.level = 0) +
   stat_qq_line(col = "blue") +
   ggtitle("QQ Plot - within a few hours") +
   xlab("Theoretical Quantiles") +
-  ylab("Sample Quantiles")
+  ylab("Sample Quantiles") 
 
-plot2 <- ggplot(Subset_2, aes(sample = log_price)) + stat_qq() + stat_qq_line(col = "blue") + ggtitle("QQ Plot - within an hour") +
+plot2 <- ggplot(Subset_2, aes(sample = log_price)) +
+  stat_qq(conf.int = FALSE, conf.int.level = 0) +
+  stat_qq_line(col = "blue") +
+  ggtitle("QQ Plot - within an hour") +
   xlab("Theoretical Quantiles") +
   ylab("Sample Quantiles")
 
-plot3 <- ggplot(Subset_3, aes(sample = log_price)) + stat_qq() + stat_qq_line(col = "blue") + ggtitle("QQ Plot - within a day") + 
+
+plot3 <- ggplot(Subset_3, aes(sample = log_price)) + stat_qq(conf.int = FALSE, conf.int.level = 0) + stat_qq_line(col = "blue") + ggtitle("QQ Plot - within a day") + 
   xlab("Theoretical Quantiles") +
   ylab("Sample Quantiles")
 
@@ -70,8 +74,8 @@ global_test <- aov(airbnb_data$log_price ~ airbnb_data$categories, airbnb_data)
 summary(global_test)
 
 # Task 3: Are there pairwise differences between the resulting log_price? Consider all pairs of categories and conduct two-sample tests. 
-# Adjust the test results with the Bonferroni correction and with the Tukey’s Honest Significant Difference (HSD). Please also
-# calculate the Tukey’s confidence interval.
+# Adjust the test results with the Bonferroni correction and with the Tukey's Honest Significant Difference (HSD). Please also
+# calculate the Tukey's confidence interval.
 
 #Non adjustment
 Without <- pairwise.t.test(airbnb_data$log_price, airbnb_data$categories, p.adj = "none", pool.sd = TRUE, alternative = "two.sided", var.equal = TRUE)
