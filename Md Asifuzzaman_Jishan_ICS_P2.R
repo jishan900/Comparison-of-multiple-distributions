@@ -69,9 +69,9 @@ Assumptions
 global_test <- aov(airbnb_data$log_price ~ airbnb_data$categories, airbnb_data)
 summary(global_test)
 
-# Are there pairwise differences between the resulting log_price? Consider all pairs of categories and conduct two-sample tests. 
-# Adjust the test results with the Bonferroni correction and with the Tukey's Honest Significant Difference (HSD). Please also
-# calculate the Tukey's confidence interval.
+# Task 3: Are there pairwise differences between the resulting log_price? Consider all pairs of categories and conduct two-sample tests. 
+# Adjust the test results with the Bonferroni correction and with the Tukey’s Honest Significant Difference (HSD). Please also
+# calculate the Tukey’s confidence interval.
 
 #Non adjustment
 Without <- pairwise.t.test(airbnb_data$log_price, airbnb_data$categories, p.adj = "none", pool.sd = TRUE, alternative = "two.sided", var.equal = TRUE)
@@ -86,7 +86,7 @@ bonferroni
 tukey <- TukeyHSD(global_test)
 tukey
 
-# Compare the results of these two correction methods with the non-adjusted test and give a reasonable explanation.
+# Task 4: Compare the results of these two correction methods with the non-adjusted test and give a reasonable explanation.
 # Calculate Tukey's confidence intervals
 tukey_confidence_intervals <- confint(global_test, level = 0.95)
 tukey_confidence_intervals
