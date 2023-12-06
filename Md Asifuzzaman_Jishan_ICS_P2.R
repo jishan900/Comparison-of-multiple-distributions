@@ -29,10 +29,10 @@ airbnb_data <- mutate(airbnb_data, categories)
 
 # Descriptive analysis
 # Measure of central tendency for host_response_time
-airbnb_data %>% group_by(categories) %>% summarise(count = n(), mean(log_price), median(log_price), sd(log_price), var(log_price), IQR(log_price))
+airbnb_data %>% group_by(categories) %>% summarise(count = n(), min(log_price), max(log_price), mean(log_price), median(log_price), sd(log_price), var(log_price), IQR(log_price))
 
 # Measure of central tendency for log_price
-airbnb_data %>% summarise(count = n(), mean(log_price), median(log_price), sd(log_price), var(log_price), IQR(log_price))
+airbnb_data %>% summarise(count = n(), min(log_price), max(log_price), mean(log_price), median(log_price), sd(log_price), var(log_price), IQR(log_price))
 
 # Subset the data 
 Subset_1 <- subset(airbnb_data, host_response_time == "within a few hours")
