@@ -14,8 +14,13 @@ library(cowplot)
 
 # Read the data set
 airbnb_data <- read.csv("D:/Germany/Study Files-TUD/TU Dortmund/--------Semester-8-Winter Term--------2023-2024/ICS/2023/Report-2/Airbnb_data.csv")
-
+head(airbnb_data)
+airbnb_data
 missing_values <- sum(is.na(airbnb_data))
+nrow(airbnb_data)
+ncol(airbnb_data)
+summary(airbnb_data)
+missing_values
 
 print(paste("Total missing values:", missing_values))
 
