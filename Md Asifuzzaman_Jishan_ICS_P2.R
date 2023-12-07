@@ -93,7 +93,7 @@ Merge <-  plot_grid(plot1, plot2, plot3, ncol = 2)
 Merge
 
 # Homogeneity of Variance leveneTest
-Assumptions <- leveneTest(airbnb_data$log_price, airbnb_data$categories)
+Assumptions <- round(leveneTest(airbnb_data$log_price, airbnb_data$categories), 2)
 Assumptions
 
 # ANOVA test
