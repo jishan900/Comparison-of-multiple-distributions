@@ -1,5 +1,5 @@
 # Comparison-of-multiple-distributions
-
+Inside Airbnb is an internet platform that offers information and support regarding Airbnb’s influence on residential communities. Their goal is to empower communities with data and knowledge, enabling them to comprehend, make decisions and have control over the rental of residential houses to tourists.
 
 # Project Objective
 The main goal is to evaluate the whole dataset using a variety of statistical and graphical tools. First, we use plotting histograms to look at how the frequencies of the variables are spread out. The second step is to utilize a boxplot with the mean, median, and interquartile range to calculate the variability of the sub-region that illustrates homogeneity and heterogeneity. Moreover, in this section also detailed comparisons between the regions of Europe and Africa are shown. Next, the heatmap is used to find the variables relationship with each other. Finally, changes that have occurred in the last 20 years, along with the median age and infant mortality rate for both sexes were examined.
