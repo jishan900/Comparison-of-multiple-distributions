@@ -11,7 +11,7 @@ From the variables, the ‘log price’ variable is numerical (continuous) and t
 
 # Statistical Methods
 In this section, several statistical methodologies are presented. The entire dataset was analyzed with R programming language, version 4.1.1, which was developed by the R Development Core Team. Moreover, a few R packages, including ggplot2, gridExtra, tidyverse, skimr, rstatix, car and ggpubr are used for the statistical data analysis, calculations and visualizations.
-1. Mean, 2. Median, 3. Pearson Correlation Coefficient, 4. Variance and Standard Deviation, 5. Histogram, 6. Scatterplot, 7. Boxplot
+1.  Statistical Hypothesis Testing, 2. Confidence Interval, 3. One-way ANOVA, 4. Q-Q Plot, 5. Levene’s Test, 6. Two-Sample t-Tests, 7. Bonferroni Method, 8. Tukey’s Honest Significant Difference (HSD)
 
 # Statistical Analysis
 In this section, all seven variables such as ‘median age for both sexes’, ‘median age for males’, ‘median age for females’, ‘total fertility rate’, ‘infant mortality rate for both sexes’, ‘infant mortality rate for males’, and ‘infant mortality rate for females’ are applied for the year 2023. In the provided Excel dataset, those variables exist in the character mode. For the purpose of data analysis, those variables should be converted from character mode to numeric mode. Finally, in the last subsection, a comparison between the year 2003 and 2023 is shown.  
