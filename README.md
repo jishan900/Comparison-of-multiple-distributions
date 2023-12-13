@@ -10,8 +10,7 @@ The dataset used in this study is contributed by the acclaimed instructors of th
 From the variables, the ‘log price’ variable is numerical (continuous) and the ‘host response time’ variable is categorical (ordinal). After executing the R program, it is discovered that the dataset is well organized and there are no missing values in the entire dataset. Overall, the data quality is considered to be good.
 
 # Statistical Methods
-In this section, several statistical methods are represented. The information was analyzed with R, version 4.1.1, which was made by the R Development Core Team. In addition, R packages, including ggplot2, gridExtra, reshape2, and ggpubr are used for data analysis, calculations, and visualizations.
-
+In this section, several statistical methodologies are presented. The entire dataset was analyzed with R programming language, version 4.1.1, which was developed by the R Development Core Team. Moreover, a few R packages, including ggplot2, gridExtra, tidyverse, skimr, rstatix, car and ggpubr are used for the statistical data analysis, calculations and visualizations.
 1. Mean, 2. Median, 3. Pearson Correlation Coefficient, 4. Variance and Standard Deviation, 5. Histogram, 6. Scatterplot, 7. Boxplot
 
 # Statistical Analysis
