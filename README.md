@@ -9,8 +9,6 @@ The dataset used in this study is contributed by the acclaimed instructors of th
 
 From the variables, the ‘log price’ variable is numerical (continuous) and the ‘host response time’ variable is categorical (ordinal). After executing the R program, it is discovered that the dataset is well organized and there are no missing values in the entire dataset. Overall, the data quality is considered to be good.
 
-From the year 2003 and 2023, countries are divided into the five regions and twenty-one subregions. While looking through the whole dataset, we find out that there are seven rows that have missing values. Six of them are from 2003, and the last one is from 2023. Missing values are positioned in rows number 118, 163, 190, 193, 197, 215, and 441. Only ‘country name’, ‘region’, ‘subregion’, and ‘year’ values exist in the first six rows, and the remaining variable values are missing. Furthermore, in row number 441, only ‘median age for both sexes’, ‘median age females’, and ‘median age males’ that three variables values are missing. Since there are only a few missing records in the whole dataset, they are not used for analysis.
-
 # Statistical Methods
 In this section, several statistical methods are represented. The information was analyzed with R, version 4.1.1, which was made by the R Development Core Team. In addition, R packages, including ggplot2, gridExtra, reshape2, and ggpubr are used for data analysis, calculations, and visualizations.
 
