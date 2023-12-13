@@ -16,7 +16,8 @@ In this section, several statistical methodologies are presented. The entire dat
 # Statistical Analysis
 In this section, all dataset variables, such as ‘log price’ and ‘host response time’ are utilized. Moreover, the ‘host response time’ variable was categorized into three portions and used in the analysis. The main goal of this study is to establish the correlation and individual distinctions between log price and the host response time, with a specific emphasis on three different categories. Finally, the last subsection shows a brief comparison between the non-adjusted and the adjusted method.
 
-![Untitled](https://github.com/jishan900/Descriptive-analysis-of-demographic-data-using-the-U.S.-Census-Bureau-dataset/assets/32738421/4490aa64-d34b-4764-9560-c0654500f0b0)
+![image](https://github.com/jishan900/Comparison-of-multiple-distributions/assets/32738421/08bbd2ad-3087-46a5-8ce2-d499fe2f8cfa)
+
 
 ![Untitled](https://github.com/jishan900/Descriptive-analysis-of-demographic-data-using-the-U.S.-Census-Bureau-dataset/assets/32738421/742523bf-ab32-4df7-a3b0-4c5d7911479b)
 
