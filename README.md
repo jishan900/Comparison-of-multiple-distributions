@@ -20,7 +20,7 @@ In this section, all dataset variables, such as ‘log price’ and ‘host resp
 
 ![image](https://github.com/jishan900/Comparison-of-multiple-distributions/assets/32738421/f8ae1818-6274-481b-bc70-aa75eb4e72f1)
 
-![Untitled](https://github.com/jishan900/Descriptive-analysis-of-demographic-data-using-the-U.S.-Census-Bureau-dataset/assets/32738421/ff8ba8e1-ac6b-49ac-9665-aebd70eb724c)
+![image](https://github.com/jishan900/Comparison-of-multiple-distributions/assets/32738421/7dd953bf-4906-4f14-8a08-22cfe61d26f0)
 
 ![Untitled](https://github.com/jishan900/Descriptive-analysis-of-demographic-data-using-the-U.S.-Census-Bureau-dataset/assets/32738421/8b49e25d-e824-4329-8161-44957df66663)
 
